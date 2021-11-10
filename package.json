@@ -42,7 +42,6 @@
     "run:static": "better-npm-run run:static",
     "run:staging": "better-npm-run run:staging",
     "run:production": "better-npm-run run:production",
-    "heroku-postbuild": "yarn",
     "build": "yarn build:assets:staging",
     "start": "start:spa:staging",
     "analyze": "yarn clean:build && better-npm-run analyze",
