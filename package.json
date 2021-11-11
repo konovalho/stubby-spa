@@ -39,7 +39,7 @@
     "build:assets:production": "yarn clean:build && yarn copy:favicon && better-npm-run build:production",
     "build:server:staging": "better-npm-run build:server:staging",
     "build:server:production": "better-npm-run build:server:production",
-    "run:static": "better-npm-run run:static",
+    "run:static": "ls -la",
     "run:staging": "better-npm-run run:staging",
     "run:production": "better-npm-run run:production",
     "build": "yarn build:assets:staging",
