@@ -26,7 +26,7 @@ export const request = <T>(method: Methods, opts: AxiosRequestConfig) => {
 
   return axios.request<T>({
     ...opts,
-    baseURL: config.remoteApiUrl,
+    baseURL: `${config.remoteApiUrl}/api`,
     method,
   });
 };
