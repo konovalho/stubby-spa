@@ -41,7 +41,7 @@
     "build:server:production": "better-npm-run build:server:production",
     "run:static": "better-npm-run run:static",
     "run:staging": "better-npm-run run:staging",
-    "run:heroku:static": "better-npm-run run:static",
+    "run:heroku:static": "better-npm-run run:heroku:static",
     "run:production": "better-npm-run run:production",
     "build": "yarn build:assets:staging",
     "start": "start:spa:staging",
