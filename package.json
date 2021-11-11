@@ -43,7 +43,7 @@
     "run:staging": "better-npm-run run:staging",
     "run:heroku:static": "better-npm-run run:heroku:static",
     "run:production": "better-npm-run run:production",
-    "build": "yarn build:assets:staging",
+    "build": "yarn build:assets:staging && yarn render:index",
     "start": "start:spa:staging",
     "analyze": "yarn clean:build && better-npm-run analyze",
     "lint": "yarn lint:js && yarn lint:ts",
