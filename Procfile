@@ -1,1 +1,1 @@
-web: yarn run:static
+web: yarn run:heroku:static
