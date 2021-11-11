@@ -1,1 +1,1 @@
-web: yarn start:spa:staging
+web: yarn run:static
