@@ -1,5 +1,7 @@
 ## Getting Started
 
+## Когда уже пойдешь на собеседование??
+
 **1. You can start by cloning the repository on your local machine by running:**
 
 ```bash
